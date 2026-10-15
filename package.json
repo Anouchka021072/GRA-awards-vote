@@ -1,0 +1,16 @@
+{
+  "name": "gra-staff-awards",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Anonymous staff voting platform for the GRA staff awards",
+  "scripts": {
+    "codes": "node --env-file=.env scripts/generate-codes.mjs"
+  },
+  "dependencies": {
+    "@upstash/redis": "1.34.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
